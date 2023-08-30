@@ -1,8 +1,7 @@
-package session9.fitness_tracking_system;
+package session9.homework.fitness_tracking_system;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 import static java.util.Locale.filter;
 

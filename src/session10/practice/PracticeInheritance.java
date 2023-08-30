@@ -1,4 +1,6 @@
-package session10;
+package session10.practice;
+
+import session10.practice.Dog;
 
 public class PracticeInheritance {
 

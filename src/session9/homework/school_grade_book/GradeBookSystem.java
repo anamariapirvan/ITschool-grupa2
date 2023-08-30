@@ -1,4 +1,4 @@
-package session9.school_grade_book;
+package session9.homework.school_grade_book;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package session9.collage_management_system;
+package session9.homework.collage_management_system;
 
 import java.util.Date;
 

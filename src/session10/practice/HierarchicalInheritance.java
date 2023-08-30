@@ -1,4 +1,4 @@
-package session10;
+package session10.practice;
 
 public class HierarchicalInheritance {
 }

@@ -1,4 +1,4 @@
-package session9.fitness_tracking_system;
+package session9.homework.fitness_tracking_system;
 
 import java.time.LocalDate;
 

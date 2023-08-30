@@ -1,4 +1,4 @@
-package session9.simple_banking_application;
+package session9.homework.simple_banking_application;
 
 public class Transaction {
     private String type;
