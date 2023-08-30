@@ -1,4 +1,4 @@
-package session10.homework.WaterCraft;
+package session10.homework.water_craft;
 
 public class FishingBoat extends Boat {
     private double fishCapacity;

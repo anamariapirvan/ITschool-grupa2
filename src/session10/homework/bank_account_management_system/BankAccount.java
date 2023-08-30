@@ -26,37 +26,39 @@ public class BankAccount {
             System.out.println("Invalid deposit");
         }
     }
-    public void withdraw(double amount){
-        if(amount>0 && amount<=balance){
-            balance-=amount;
+
+    public void withdraw(double amount) {
+        if (amount > 0 && amount <= balance) {
+            balance -= amount;
             System.out.println("Withdrew " + amount + " units. New balance is: " + balance);
-        } else{
+        } else {
             System.out.println("Invalid withdrawal amount of insufficient funds" + balance);
         }
     }
-    public double getBalance(){
+
+    public double getBalance() {
         return balance;
     }
 
-    public void getAccountDetails(){
+    public void getAccountDetails() {
         System.out.println("Account holder: " + accountHolderName);
         System.out.println("Account number: " + accountNumber);
         System.out.println("Balance: " + balance);
     }
 
-    public void transferFunds( BankAccount targetAccount, double amount){
-        if(amount>0 && balance>=amount){
-            this.balance-=amount;
-            targetAccount.balance+=amount;
+    public void transferFunds(BankAccount targetAccount, double amount) {
+        if (amount > 0 && balance >= amount) {
+            this.balance -= amount;
+            targetAccount.balance += amount;
             System.out.println("Transferred " + amount + " to account " + targetAccount.accountNumber);
-        } else{
+        } else {
             System.out.println("Invalid transfer or insufficient funds");
         }
     }
 
     public static void main(String[] args) {
         BankAccount account1 = new BankAccount("Ana Pirvan");
-        BankAccount account2= new BankAccount("Ion Popescu");
+        BankAccount account2 = new BankAccount("Ion Popescu");
 
 
         account1.deposit(1000);
@@ -69,6 +71,5 @@ public class BankAccount {
 
         account1.getAccountDetails();
         account2.getAccountDetails();
-
     }
 }
