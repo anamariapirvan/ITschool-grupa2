@@ -9,7 +9,7 @@ public class Authentication {
 
     public Authentication() {
         users.add(new User("HomeOwner", "pass123", UserRole.HOMEOWNER));
-        users.add((new User("FamilyMember", " pass1223", UserRole.FAMILY_MEMBER));
+        users.add((new User("FamilyMember", " pass1223", UserRole.FAMILY_MEMBER)));
         users.add(new User("Guest", "guest123", UserRole.GUEST));
     }
 
